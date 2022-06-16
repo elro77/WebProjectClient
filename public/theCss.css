@@ -1,0 +1,274 @@
+.center {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+  }
+
+  .centerLarge {
+    margin: auto;
+    width: 80%;
+    padding: 10px;
+  }
+
+  .labelStyle {
+    font-family: Georgia, serif;
+    font-size: 33px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    color: #000000;
+    font-weight: normal;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    }
+
+    .formBorder{
+      box-sizing: border-box;
+      border: 3px solid rgb(62, 183, 253);
+      margin: auto;
+      margin-top: 60px;
+      width: 50%;
+      padding: 100px;
+      width: 50%;
+
+
+      background: #ffffff;
+      box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+      padding: 30px 45px 35px 45px;
+      border-radius: 15px;
+      transition: all .3s;
+    }
+
+    
+
+    .btn-addProject:before{
+      content: url('addProject_30px_30px.png');
+    }
+
+    .btn-addProject,.btn-addProject:focus,.btn-addProject:active {
+      border:0;
+      background:transparent
+    }
+
+
+    .btn-addIssue:before{
+      content: url('addIssue_30px_30px.png');
+    }
+
+    .btn-addIssue,.btn-addIssue:focus,.btn-addIssue:active {
+      border:0;
+      background:transparent
+    }
+
+
+    .btn-addMember:before{
+      content: url('addMember_30px_30px.png');
+    }
+    .btn-addMember,.btn-addMember:focus,.btn-addMember:active {
+      border:0;
+      background:transparent
+    }
+
+
+
+
+
+
+    .profile-issueTab:before{
+      content: url('issue_20px_20px.png');
+    }
+
+    .profile-issueTab {
+      font-family: Helvetica  ;
+      font-size: 20px;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 0.77;
+      letter-spacing: -0.6px;
+      text-align: center;
+      color: #dfab00;
+  }
+  
+  .profile-issueTab:focus {
+      font-family: Helvetica  ;
+      font-size: 20px;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 0.77;
+      letter-spacing: -0.6px;
+      text-align: center;
+      background-color: #dfab00;
+      color: black;
+  }
+  
+  .profile-issueTab:hover {
+      font-family: Helvetica  ;
+      font-size: 20px;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 0.77;
+      letter-spacing: -0.6px;
+      text-align: center;
+      background-color: #ffc400;
+      color: white;
+  }
+
+  .profile-completeTab:before{
+    content: url('complete_20px_20px.png');
+  }
+
+  .profile-completeTab {
+    font-family: Helvetica  ;
+    font-size: 20px;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.77;
+    letter-spacing: -0.6px;
+    text-align: center;
+    color: #128137;
+}
+
+.profile-completeTab:focus {
+    font-family: Helvetica  ;
+    font-size: 20px;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.77;
+    letter-spacing: -0.6px;
+    text-align: center;
+    background-color: #d3d486;
+    color: #128137;
+}
+
+.profile-completeTab:hover {
+    font-family: Helvetica  ;
+    font-size: 20px;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.77;
+    letter-spacing: -0.6px;
+    text-align: center;
+    background-color: #128137;
+    color: white;
+}
+
+
+.profile-overdueTab:before{
+  content: url('alert_20px_20px.png');
+}
+
+.profile-overdueTab {
+  font-family: Helvetica  ;
+  font-size: 20px;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.77;
+  letter-spacing: -0.6px;
+  text-align: center;
+  color: #aa0f0f;
+}
+
+.profile-overdueTab:focus {
+  font-family: Helvetica  ;
+  font-size: 20px;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.77;
+  letter-spacing: -0.6px;
+  text-align: center;
+  background-color: #d3d486;
+  color: #128137;
+}
+
+.profile-overdueTab:hover {
+  font-family: Helvetica  ;
+  font-size: 20px;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.77;
+  letter-spacing: -0.6px;
+  text-align: center;
+  background-color: #aa0f0f;
+  color: white;
+}
+
+
+
+.profile-membersTab:before{
+  content: url('members_20px_20px.png');
+}
+
+.profile-membersTab {
+  font-family: Helvetica  ;
+  font-size: 20px;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.77;
+  letter-spacing: -0.6px;
+  text-align: center;
+  color: #3ea6eb;
+}
+
+.profile-membersTab:focus {
+  font-family: Helvetica  ;
+  font-size: 20px;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.77;
+  letter-spacing: -0.6px;
+  text-align: center;
+  background-color: #d3d486;
+  color: #128137;
+}
+
+.profile-membersTab:hover {
+  font-family: Helvetica  ;
+  font-size: 20px;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.77;
+  letter-spacing: -0.6px;
+  text-align: center;
+  background-color: #3ea6eb;
+  color: white;
+}
+
+.profile-waitingTab:before{
+  content: url('pending_20px_20px.png');
+}
+
+.profile-waitingTab {
+  font-family: Helvetica  ;
+  font-size: 20px;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.77;
+  letter-spacing: -0.6px;
+  text-align: center;
+  color: #973eeb;
+}
+
+.profile-waitingTab:focus {
+  font-family: Helvetica  ;
+  font-size: 20px;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.77;
+  letter-spacing: -0.6px;
+  text-align: center;
+  background-color: #d3d486;
+  color: #973eeb;
+}
+
+.profile-waitingTab:hover {
+  font-family: Helvetica  ;
+  font-size: 20px;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.77;
+  letter-spacing: -0.6px;
+  text-align: center;
+  background-color: #973eeb;
+  color: white;
+}
