@@ -43,7 +43,7 @@ const App = (props) => {
             
           else
           {
-            return <Redirect to="/"/>
+            return <Redirect to="/Login"/>
           }    
           
           }}></Route>
@@ -55,12 +55,12 @@ const App = (props) => {
             
           else
           {
-            return <Redirect to="/"/>
+            return <Redirect to="/Login"/>
           }
  
           }}></Route>
         <Route path="/Register" render={()=>{return(<Register setUserNameFunc={setUserName}/>)}}></Route>
-        <Route path="/" ><Redirect to="/Login"/></Route>
+        <Route path="/Login" ><Redirect to="/Login"/></Route>
           
       </Switch>
     </Router>
