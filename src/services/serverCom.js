@@ -2,7 +2,7 @@ import axios from 'axios'
 
 import {SetUser} from '../components/Navigator'; 
 
-const baseUrl = 'https://polar-everglades-75875.herokuapp.com/'
+const baseUrl = 'https://polar-everglades-75875.herokuapp.com'
 export let data={username:"",password:"",lists:"[]"}
 export function signIn(username,password,onSuccess,onFailure) {
     data={username:"",password:"",lists:"[]"}
