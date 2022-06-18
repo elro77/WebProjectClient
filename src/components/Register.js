@@ -7,6 +7,7 @@ var setNotefunc=()=>{}
 var setNoteTextfunc=()=>{}
 var setNoteVarfunc=()=>{}
 var gSetUserNameFunc=()=>{}
+var gSetAuthentication = () =>{}
 
 var history=null
 
@@ -17,7 +18,7 @@ const onSuccess=(username)=>
   setNoteTextfunc("Registerd successfuly")
   setNotefunc(true)
   gSetUserNameFunc(username)
-  setAuto(true)
+  gSetAuthentication(true)
   history.push("/Home")
 
 }
@@ -28,7 +29,7 @@ const onFailure=()=>
   setNoteVarfunc("warning")
   setNoteTextfunc("User exists")
   setNotefunc(true)
-  setAuto(false)
+  gSetAuthentication(false)
 }
 
 
@@ -83,7 +84,8 @@ const Register = ({ setAuto,setUserNameFunc }) => {
     setNotefunc=setShow
     setNoteTextfunc=setNotificationText
     setNoteVarfunc=setNotificationVariant
-    gSetUserNameFunc=setUserNameFunc;
+    gSetUserNameFunc=setUserNameFunc
+    gSetAuthentication = setAuto
     return (
       <div className='center'>
       <div className='formBorder'>
