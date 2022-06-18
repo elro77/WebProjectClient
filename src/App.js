@@ -59,7 +59,7 @@ const App = (props) => {
           }
  
           }}></Route>
-        <Route path="/Register" render={()=>{return(<Register setUserNameFunc={setUserName}/>)}}></Route>
+        <Route path="/Register" render={()=>{return(<Register setUserNameFunc={setUserName} setAuto={setAuthenticated}/>)}}></Route>
         <Route path="/" ><Redirect to="/Login"/></Route>
           
       </Switch>

@@ -16,7 +16,8 @@ const onSuccess=(username)=>
   setNoteVarfunc("success")
   setNoteTextfunc("Registerd successfuly")
   setNotefunc(true)
-  gSetUserNameFunc(username);
+  gSetUserNameFunc(username)
+  setAuto(true)
   history.push("/Home")
 
 }
@@ -27,6 +28,7 @@ const onFailure=()=>
   setNoteVarfunc("warning")
   setNoteTextfunc("User exists")
   setNotefunc(true)
+  setAuto(false)
 }
 
 
